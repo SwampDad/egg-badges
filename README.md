@@ -10,8 +10,9 @@ Egg Badges is not an official Cobblemon Town or Cobblemon project.
 
 1. Use Minecraft `1.21.1` with Fabric Loader `>=0.18.0`, Fabric API
    `>=0.116.7+1.21.1`, and Java `21` or newer.
-2. Download `egg-badges-0.2.4.jar` from the
-   [Egg Badges release](https://github.com/SwampDad/egg-badges/releases/tag/egg-badges-v0.2.4).
+2. Download `egg-badges.jar` from the permanent
+   [latest stable download](https://github.com/SwampDad/egg-badges/releases/latest/download/egg-badges.jar),
+   or browse the [Releases page](https://github.com/SwampDad/egg-badges/releases).
 3. Put the JAR in the client instance's `mods` folder.
 4. Restart Minecraft. No server installation is required.
 
