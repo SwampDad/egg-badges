@@ -8,6 +8,7 @@
   "license": "MIT",
   "environment": "client",
   "accessWidener": "egg-badges.accesswidener",
+  "mixins": ["egg-badges.mixins.json"],
   "entrypoints": { "client": ["com.cobbletown.eggbadges.EggBadgesClient"] },
   "depends": { "fabricloader": ">=0.18.0", "fabric-api": "*", "minecraft": "~1.21.1", "java": ">=21" }
 }

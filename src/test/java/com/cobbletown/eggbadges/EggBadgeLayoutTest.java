@@ -5,10 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EggBadgeLayoutTest {
     @Test void largeAndSmallGuiLayoutsKeepBottomBarBelowEditor() {
-        for (int[] size : new int[][]{{854,480},{1280,720},{2146,1744}}) {
+        for (int[] size : new int[][]{{515,270},{526,270},{854,480},{1280,720},{2146,1744}}) {
             EggBadgeLayout l=EggBadgeLayout.calculate(size[0],size[1]);
             assertTrue(l.editorX()>l.selectorX()+l.selectorWidth());
             assertTrue(l.secondaryY()+20<l.bottomY());
+            assertTrue(l.countY()+20<=l.ivY());
+            assertTrue(l.presetY()>=l.ivY()+3*l.ivRowGap());
             assertTrue(l.contentRight()<=size[0]-16);
         }
     }

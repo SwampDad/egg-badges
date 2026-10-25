@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.cobbletown.eggbadges.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HandledScreenBackgroundMixin",
+    "HandledScreenCursorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
